@@ -65,6 +65,7 @@
   type="file"
   name={field.name}
   class={classe}
+  id={field.attributes.id}
   {multiple}
   on:input={onChangerValue}
   bind:this={inputFile}
